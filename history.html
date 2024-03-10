@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient History</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <h1>Patient History</h1>
+  <table border="1">
+    <tbody>
+      <tr>
+        <th>Full Name</th>
+        <td id="full-name"></td>  </tr>
+      <tr>
+        <th>Phone Number</th>
+        <td id="phone-number"></td>
+      </tr>
+      <tr>
+        <th>Date</th>
+        <td id="date"></td>
+      </tr>
+      <tr>
+        <th>Date of Birth</th>
+        <td id="date-of-birth"></td>
+      </tr>
+      <tr>
+        <th>Gender</th>
+        <td id="gender"></td>
+      </tr>
+      <tr>
+        <th>Complaint</th>
+        <td id="complaint"></td>
+      </tr>
+      <tr>
+        <th>Diagnosis</th>
+        <td id="diagnosis"></td>
+      </tr>
+      <tr>
+        <th>Prescription</th>
+        <td id="prescription"></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script>
+    // Replace these with actual values from your data source (e.g., database)
+    document.getElementById("full-name").textContent = "Nicole Bejoy";
+    document.getElementById("phone-number").textContent = "(555) 555-5555";
+    document.getElementById("date").textContent = new Date().toLocaleDateString();
+    // ... fill in the rest of the data points
+  </script>
+</body>
+</html>

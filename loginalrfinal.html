@@ -34,8 +34,8 @@
         outline: none;
       }
       .registerbtn {
-        background-color: turquoise;
-        color: black;
+        background-color: #007958;
+        color: white;
         padding: 16px 20px;
         margin: 8px;
         cursor: pointer;
@@ -56,16 +56,13 @@
   </head>
   <body>
     <div class="container">
-      <form>
+      <form action="/" method="post">
         <h1>Login</h1>
         <hr />
-        <label>Registration Number</label>
-        <input type="text" placeholder="Registration Number" />
-        
-        <a href="file:///C:/Users/nicol/.ipython/table.html">
-        <button class="registerbtn">Log in</button>
-        </a>
-        
+        <label for="reg_no">Reg_num:</label><br>
+        <input type="text" id="reg_no" name="reg_no"><br> 
+        <input type="submit", class="registerbtn" value="Log in">
+      
       </form>
     </div>
 </div>

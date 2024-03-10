@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex; /* Enables arranging elements side-by-side */
+  }
+  
+  .container img {
+    width: 50%; /* Set image width to half the container */
+    object-fit: cover; /* Scale image to fill the width while maintaining aspect ratio */
+    height: 750px;
+  }
+  
+  .text-content {
+    width: 50%; /* Set text content width to half the container */
+    padding: 20px;
+    height: 750px;
+    color: white;
+    background-color: rgb(5, 106, 76);
+    text-align: center;
+  }
